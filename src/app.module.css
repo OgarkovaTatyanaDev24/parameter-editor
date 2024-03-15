@@ -7,3 +7,8 @@
     color: aliceblue;
     font-size: 18px;
   }
+
+.params {
+  max-width: 330px;
+  margin-top: 45px;
+}

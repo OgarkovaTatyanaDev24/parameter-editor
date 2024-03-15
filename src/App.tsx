@@ -74,7 +74,7 @@ class ParamEditor extends React.Component<Props, State> {
             </div>
           )
         })}
-        <text>{JSON.stringify(this.state.model)}</text>
+        <text className={styles.params}>{JSON.stringify(this.state.model)}</text>
       </div>
     )
   }
